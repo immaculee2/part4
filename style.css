@@ -7,14 +7,13 @@ body{
     background-image: url("1.jpg");
      background-repeat: no-repeat;
      background-size: cover;
-     height: 500px;
-     margin: 0px;
+     height: 400px;
 
 
 }
 #home h1{
     text-align: center;
-    padding: 200px;
+    
 }
 ul {
     list-style:none;
@@ -34,11 +33,77 @@ li a{
     text-align: center;
 }
 #about-me{
-    display: grid;
-    grid-template-columns: 1fr,1fr;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    }
 
-    
+
+
+#about{
+    margin: 50px;
 }
-pre{
-    width: 50%;
+
+
+
+
+
+.footer-about ul {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  padding:30px;
+  margin-left :-50px;
+  margin-right: 0px;
+
+}
+
+.photography{
+    background-color: lightgray;
+}
+.progress{
+    margin: 30px;
+}
+.gallery-portifoilo{
+   display:grid;
+   grid-template-columns: repeat(3, 1fr); 
+   gap:10px;
+   margin-left: 190px;
+   margin-right:200px;
+}
+.portfolio-h2{
+    text-align: center;
+}
+.portfolio-h3{
+    text-align: center;
+   margin-left: 400px;
+    width: 500px;
+}
+.load-more{
+    text-align: center;
+    margin-top: 50px;
+     margin-left:600px;
+    background-color: lightgrey;
+    width:150px;
+    padding: 20px;
+}
+.part-portifoilo{
+     background-image: url("2.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 300px;
+
+
+}
+.inner-contact{
+    text-align: center;
+    font-size: 40px;
+   
+    background-color: lightgrey;
+    width: 200px;
+    height: 40px;
+    margin-left: 600px;
+    
+
 }
